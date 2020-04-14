@@ -1,0 +1,7 @@
+{
+    "experiment_name": "Provide a short, descriptive, experiment name",
+    "experiment_date": "YYYY-MM-DD",
+    "repo_name": "{{cookiecutter.experiment_name.lower().replace(' ', '_') }}_{{cookiecutter.experiment_date}}",
+    "researcher_name": "First and Last Name",
+    "description": "A short description of the experiment. "
+}
