@@ -8,5 +8,4 @@ bibliography:
   - 'references.bib'
 csl: 'ieee.csl'
 link-citation: True
-date: {{cookiecutter.version}}
 ---
