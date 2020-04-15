@@ -1,0 +1,15 @@
+rule report:
+    message: "Compile report.pdf"
+    input:
+        "report/references.bib",
+        "report/report.md",
+        "report/pandoc-document-configuration.yml",
+        "report/ieee.csl",
+    output: "build/report.pdf"
+    shell:
+        """
+        cd report
+        ln -s ../build .
+        pandoc report.md pandoc-document-configuration.yml --pdf-engine==xelatex \
+        -o ../build/report.pdf
+        """
