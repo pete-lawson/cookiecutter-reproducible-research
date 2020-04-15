@@ -1,8 +1,4 @@
-# {{cookiecutter.experiment_name}} {{cookiecutter.experiment_date}}
-
 ## Introduction
-
-{{cookiecutter.description}}
 
 Introduce briefly the experiment, what is the goal and expected outcome? Provide any justification for parameter selection during the experiment. If this justification depends on previous literature, be certain to cite the appropriate study. 
 
