@@ -2,7 +2,7 @@
 title: {{cookiecutter.experiment_name}}
 author:
   - {{cookiecutter.researcher_name}}
-abstract: |
+abstract: 
   {{cookiecutter.description}}
 bibliography:
   - 'references.bib'
