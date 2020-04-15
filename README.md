@@ -6,7 +6,7 @@ This repository provides a [cookiecutter](http://cookiecutter.readthedocs.io) te
 
 You need `cookiecutter` and `snakemake` installed. 
 
-To create a new experiment run 
+To create a new experiment run:
 
 ```
 cookiecutter https://github.com/pete-lawson/cookiecutter-reproducible-research
