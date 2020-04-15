@@ -1,4 +1,4 @@
-# {{cookiecutter.repo_name}}
+# {{cookiecutter.experiment_name}} {{cookiecutter.experiment_date}}
 
 ## Introduction
 
