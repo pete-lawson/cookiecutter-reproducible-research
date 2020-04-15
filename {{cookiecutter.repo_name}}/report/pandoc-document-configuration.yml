@@ -1,0 +1,12 @@
+---
+title: {{cookiecutter.experiment_name}}
+author:
+  - {{cookiecutter.researcher_name}}
+abstract: |
+  {{cookiecutter.description}}
+bibliography:
+  - 'references.bib'
+csl: 'ieee.csl'
+link-citation: True
+date: {{cookiecutter.version}}
+---
